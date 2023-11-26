@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:email",
+ "creation": "2023-11-25 22:28:49.639876",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "doctor_name",
+  "father_name",
+  "date_of_birth",
+  "mobile",
+  "email",
+  "column_break_qawu",
+  "address",
+  "course",
+  "registration_of_certificate",
+  "any_experiance",
+  "prefferd_job_location",
+  "job_type",
+  "doctor_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Doctor Registration",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "doctor_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of birth "
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_qawu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Long Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Select",
+   "label": "Course ",
+   "options": "BVSC\ndiploma Paravet\ndiploma animal health worker\nAIl work"
+  },
+  {
+   "fieldname": "registration_of_certificate",
+   "fieldtype": "Attach",
+   "label": "Registration of certificate"
+  },
+  {
+   "fieldname": "any_experiance",
+   "fieldtype": "Data",
+   "label": "Any experiance"
+  },
+  {
+   "fieldname": "prefferd_job_location",
+   "fieldtype": "Data",
+   "label": "Prefferd job location"
+  },
+  {
+   "fieldname": "job_type",
+   "fieldtype": "Select",
+   "label": " Job Type",
+   "options": "Online\nOffline"
+  },
+  {
+   "fieldname": "doctor_id",
+   "fieldtype": "Data",
+   "label": "Doctor id",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-26 16:20:25.751355",
+ "modified_by": "Administrator",
+ "module": "Oymom",
+ "name": "Doctor Registration",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:email",
+ "creation": "2023-11-25 22:07:31.272208",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "farmer_name",
+  "fathers_name",
+  "date_of_birth",
+  "mobile",
+  "email",
+  "panchayat",
+  "block",
+  "state",
+  "column_break_pgx7",
+  "are_you_a_dairy_farmer",
+  "how_many_cattle",
+  "breed_of_cattle",
+  "categary_of_breed",
+  "vaccination",
+  "daily_milk_production",
+  "current_dairy_location",
+  "amended_from",
+  "farmer_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Fathers Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "unique": 1
+  },
+  {
+   "fieldname": "panchayat",
+   "fieldtype": "Data",
+   "label": "Panchayat"
+  },
+  {
+   "fieldname": "block",
+   "fieldtype": "Data",
+   "label": "Block"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_pgx7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "are_you_a_dairy_farmer",
+   "fieldtype": "Check",
+   "label": "Are you a dairy farmer ?"
+  },
+  {
+   "fieldname": "how_many_cattle",
+   "fieldtype": "Int",
+   "label": "how many cattle"
+  },
+  {
+   "fieldname": "breed_of_cattle",
+   "fieldtype": "Data",
+   "label": " Breed of cattle"
+  },
+  {
+   "fieldname": "categary_of_breed",
+   "fieldtype": "Data",
+   "label": "Categary of breed"
+  },
+  {
+   "fieldname": "vaccination",
+   "fieldtype": "Select",
+   "label": "Vaccination",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "daily_milk_production",
+   "fieldtype": "Data",
+   "label": "Daily milk production "
+  },
+  {
+   "fieldname": "current_dairy_location",
+   "fieldtype": "Data",
+   "label": "Current\u00a0dairy\u00a0location"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Farmer registration",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "farmer_id",
+   "fieldtype": "Data",
+   "label": "Farmer Id",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-26 12:54:34.659081",
+ "modified_by": "Administrator",
+ "module": "Oymom",
+ "name": "Farmer registration",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
