@@ -53,7 +53,7 @@ def farmer_register():
 	missing_keys = [key for key in keys_to_check if frappe.form_dict.get(key) is None]
 
 	if missing_keys:
-		feilds=f"Keys {', '.join(missing_keys)} are mandatory."
+		feilds=f"Feild {', '.join(missing_keys)} are mandatory."
 		return  {
 				"status": "fail",
 				"message": feilds,
@@ -97,7 +97,7 @@ def doctor_register():
 	missing_keys = [key for key in keys_to_check if frappe.form_dict.get(key) is None]
 
 	if missing_keys:
-		feilds=f"Keys {', '.join(missing_keys)} are mandatory."
+		feilds=f"Feild {', '.join(missing_keys)} are mandatory."
 		return  {
 				"status": "fail",
 				"message": feilds,
